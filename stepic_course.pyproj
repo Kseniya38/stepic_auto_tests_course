@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16103fc0-84da-4671-a154-fa456d3261ae}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>lesson2.4_step08.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lesson2.4_step08.py" />
+    <Compile Include="lesson2.4_step05.py" />
+    <Compile Include="lesson2.4_step06.py" />
+    <Compile Include="lesson2.3_step06.py" />
+    <Compile Include="lesson2.3_step04.py" />
+    <Compile Include="lesson2.2_step08.py" />
+    <Compile Include="lesson2.2_step06.py" />
+    <Compile Include="lesson2.2_step05.py" />
+    <Compile Include="lesson2.2_step03.py" />
+    <Compile Include="lesson2.1_step07.py" />
+    <Compile Include="lesson2.1_step05.py" />
+    <Compile Include="lesson1.6_step11_check1.py" />
+    <Compile Include="lesson1.6_step11.py" />
+    <Compile Include="lesson1.6_step08.py" />
+    <Compile Include="lesson1.6_step07.py" />
+    <Compile Include="lesson1.6_step05.py" />
+    <Compile Include="lesson1.6_step04.py" />
+    <Compile Include="lesson1.6_step11_check2.py" />
+    <Compile Include="test_install_drivers.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.10" />
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
