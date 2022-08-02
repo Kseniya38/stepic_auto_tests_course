@@ -1,1 +1,1 @@
-# stepic_auto_tests_course
+# stepic_homework
